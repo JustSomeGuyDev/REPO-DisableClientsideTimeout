@@ -4,7 +4,7 @@
     <TargetFramework>netstandard2.1</TargetFramework> <!-- Or netstandard2.1 depending on the game -->
     <AssemblyName>DisableClientsideTimeout</AssemblyName>
     <Description>Disables Photon Timeout Disconnect checks</Description>
-    <Version>1.0.0</Version>
+    <Version>1.1.0</Version>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <LangVersion>8.0</LangVersion>
     <RootNamespace>DisableClientsideTimeout</RootNamespace>
@@ -34,7 +34,10 @@
        <HintPath>C:\Steam\steamapps\common\REPO\REPO_Data\Managed\Photon3Unity3D.dll</HintPath>
        <Private>false</Private>
     </Reference>
-
+    <Reference Include="REPOConfig">
+      <HintPath>C:\Users\Nelso\AppData\Roaming\com.kesomannen.gale\repo\profiles\mod Test\BepInEx\plugins\nickklmao-REPOConfig\REPOConfig.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
   </ItemGroup>
 
   <ItemGroup Condition="$(TargetFramework.TrimEnd(`0123456789`)) == 'net'">
