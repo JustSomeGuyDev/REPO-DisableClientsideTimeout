@@ -1,0 +1,9 @@
+{
+  "name": "DisableClientsideTimeout",
+  "version_number": "1.0.0",
+  "website_url": "",
+  "description": "Disables the client-side Photon TimeoutDisconnect check to potentially reduce random disconnects. Does not prevent server-side timeouts.",
+  "dependencies": [
+    "BepInEx-BepInExPack-5.4.2100"
+  ]
+}
