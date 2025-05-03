@@ -24,7 +24,7 @@ This mod includes a configuration option to enable or disable the patch:
 *   **Option:** `Enable Patch`
     *   **Type:** `Boolean` (true/false)
     *   **Default:** `true`
-    *   **Description:** When set to `true`, the mod applies the patch to disable the client-side timeout disconnect. When set to `false`, the mod loads but does not apply the patch, leaving the default timeout behavior active. This is useful if you find the patch causes severe lag or desynchronization on very unstable internet connections... if your internet connection dips down below 3mbs..
+    *   **Description:** When set to `true`, the mod applies the patch to disable the client-side timeout disconnect. When set to `false`, the mod loads but does not apply the patch, leaving the default timeout behavior active. This is useful if you find the patch causes severe lag or desynchronization on very unstable internet connections... if your internet connection dips down below 3mbs.
 
 You can edit this file directly with a text editor or use [REPOConfig](https://thunderstore.io/c/repo/p/nickklmao/REPOConfig/) if installed for in-game configuration.
 
